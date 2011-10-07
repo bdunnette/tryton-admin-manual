@@ -91,8 +91,54 @@ This manual is primarily targeted on the Tryton administrator. This manual can a
 <p>The first configuration step in the wizard is <em>Add users</em>.
 If you want to create new users click on the <em>OK</em> button.</p>
 <div class="figure">
-<img alt="_images/user-screen.png" src="_images/user-screen.png" />
+<a class="reference internal image-reference" href="_images/user-screen.png"><img alt="_images/user-screen.png" src="_images/user-screen.png" style="width: 753.5px; height: 475.0px;" /></a>
 <p class="caption">The User tab on the Users screen</p>
+</div>
+<p>On the screen Users, go to the tab User:</p>
+<div class="section" id="tab-user">
+<h3>Tab User<a class="headerlink" href="#tab-user" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Name: The real name of the user.</li>
+<li>Login: The login name of the user.</li>
+<li>Password: The user login password.</li>
+<li>Email: The e-mail address of this user.</li>
+<li>Home action: The initial “home” screen for this user, usually set to “Menu” (see below) - for instance, for a user primarily entering sales, this can be set to Sales or New Sale.</li>
+<li>Menu action: The menu viewed by the user.</li>
+</ul>
+</div></blockquote>
+<p>Check the Active box if you want this user to be active. You can block the access of an user by unchecking this box.</p>
+</div>
+<div class="section" id="tab-access-permissions">
+<h3>Tab Access Permissions<a class="headerlink" href="#tab-access-permissions" title="Permalink to this headline">¶</a></h3>
+<p>Under Groups click on the +Add button and select the groups to which the user will belong.
+Select existing groups or create a new one.</p>
+<p>Under Rules click on the +Add button to add a rule.
+With a rule you can manage in detail what kind of access a user has on the different modules/fields.
+Click on the New button and you get the Record rules screen.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Model: The model description.</li>
+<li>Global: Check this box so the rule becomes global and every user must follow this rule.</li>
+<li>Default: If you check this box the rule will be added to all users by default.</li>
+<li>Read access: Check this box if you want to give read access to model.</li>
+<li>Write access: Check this box if you want to give write access to the model.</li>
+<li>Create access: Check this box if you want to give create access to the model.</li>
+<li>Delete access: Check this box if you want to give delete access to the model.</li>
+<li>Name: Name of the rule.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="tab-preferences">
+<h3>Tab Preferences<a class="headerlink" href="#tab-preferences" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Language: Select the system language for the user.</li>
+<li>Timezone: Select the timezone in which the user works.</li>
+</ul>
+</div></blockquote>
+<p>When you have finished all the tabs for this user then click on the Add button. The user will be added to the system.</p>
+<p>A new empty User screen will appear for adding another user. If you do not want to add more users click on the End button.</p>
 </div>
 </div>
 </div>
@@ -121,7 +167,12 @@ If you want to create new users click on the <em>OK</em> button.</p>
 </ul>
 </li>
 <li><a class="reference internal" href="#basic-configuration">Basic Configuration</a><ul>
-<li><a class="reference internal" href="#creating-users">Creating users</a></li>
+<li><a class="reference internal" href="#creating-users">Creating users</a><ul>
+<li><a class="reference internal" href="#tab-user">Tab User</a></li>
+<li><a class="reference internal" href="#tab-access-permissions">Tab Access Permissions</a></li>
+<li><a class="reference internal" href="#tab-preferences">Tab Preferences</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
