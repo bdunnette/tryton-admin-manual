@@ -47,10 +47,10 @@ If you want to create new users click on the *OK* button.
    
    The User tab on the Users screen
 
-On the screen Users, go to the tab User:
+On the screen Users, go to the User tab:
 
-Tab User
-^^^^^^^^
+User Tab
+""""""""
 
     * Name: The real name of the user.
     * Login: The login name of the user.
@@ -62,8 +62,8 @@ Tab User
 
 Check the Active box if you want this user to be active. You can block the access of an user by unchecking this box.
 
-Tab Access Permissions
-""""""""""""""""""""""
+Access Permissions
+""""""""""""""""""
 
 Under Groups click on the *Add* button and select the groups to which the user will belong.
 Select existing groups or create a new one.
