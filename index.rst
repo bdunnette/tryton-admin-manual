@@ -81,8 +81,8 @@ Click on the New button and you get the Record rules screen.
     * Delete access: Check this box if you want to give delete access to the model.
     * Name: Name of the rule.
 
-Tab Preferences
-^^^^^^^^^^^^^^^
+Preferences Tab
+"""""""""""""""
 
     * Language: Select the system language for the user.
     * Timezone: Select the timezone in which the user works.
