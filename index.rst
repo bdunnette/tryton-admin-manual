@@ -30,6 +30,23 @@ Contributors
 |                |* Style sheet                      |
 +----------------+-----------------------------------+
 
+Basic Configuration
+===================
+When a new database is created in Tryton and when you log in that database for the first time, you get the screen:
+*Welcome to the module configuration wizard!*
+
+Click on the *OK* button if you want to configure modules.
+
+Creating users
+--------------
+The first configuration step in the wizard is *Add users*.
+If you want to create new users click on the *OK* button.
+
+.. figure:: user-screen.png
+   
+   The User tab on the Users screen
+
+
 Indices and tables
 ==================
 
