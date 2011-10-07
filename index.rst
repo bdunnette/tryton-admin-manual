@@ -65,10 +65,10 @@ Check the Active box if you want this user to be active. You can block the acces
 Tab Access Permissions
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Under Groups click on the +Add button and select the groups to which the user will belong.
+Under Groups click on the *Add* button and select the groups to which the user will belong.
 Select existing groups or create a new one.
 
-Under Rules click on the +Add button to add a rule.
+Under Rules click on the *Add* button to add a rule.
 With a rule you can manage in detail what kind of access a user has on the different modules/fields.
 Click on the New button and you get the Record rules screen.
 
