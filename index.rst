@@ -62,8 +62,8 @@ User Tab
 
 Check the Active box if you want this user to be active. You can block the access of an user by unchecking this box.
 
-Access Permissions
-""""""""""""""""""
+Access Permissions Tab
+""""""""""""""""""""""
 
 Under Groups click on the *Add* button and select the groups to which the user will belong.
 Select existing groups or create a new one.
