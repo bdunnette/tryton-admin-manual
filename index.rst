@@ -154,6 +154,7 @@ Companies screen
 General Tab
 In the group Addresses.
 This address will show up later in your invoices.
+
 * Name: Your organisation name
 * Active: Check this box if you want to be this organisation active
 * Invoice: Check this box if this is an address where invoices should be sent 
@@ -163,6 +164,7 @@ This address will show up later in your invoices.
 * City: City where your organisation is situated
 * Country: Country where your organisation is situated
 * Subdivision: State or province where your organisation is situated
+
 Language: select one of the available languages.
 In the group Contact mechanisms.
 These contact mechanisms are the various ways (Email, Phone, Skype) by which a company can be
@@ -173,11 +175,16 @@ companies).
 Click on the tab Employees.
 Tab Employees
 Click on the button Create a new record, the Employee screen apears.
+
 * Name: First and last name of the employee
 * Active: Check this box if the employee is active in the organisation.
+
 In the screen Employee click on the tab General.
-Tab General
+
+General Tab
+^^^^^^^^^^^
 In the group Addresses.
+
 * Name: The employee name
 * Active: Check this box if this employee is active
 * Invoice: Check this box if you can invoice this employee
@@ -187,13 +194,14 @@ In the group Addresses.
 * City: City where your employee is situated
 * Country: Country where your employee is situated
 * Subdivision: State or province where your employee is situated
+
 Language: select one of the available languages.
 In the group Contact mechanisms.
 These are the various ways (Email, Phone, Skype) by which this employee can be contacted.
 In the group Categories.
 These categories can be used to organize or “tag” employees.
+
 Tab Accounting
-When do you have to fill this tab for an employee?
 * VAT Country: Select the country abbreviation for the VAT tax.
 * VAT Number: VAT number of the employee ??? (subcontractor?)
 * Invoice Payment Term: Term for a client to pay the invoice
@@ -208,6 +216,7 @@ Tab Reports
 Under Header you fill in the text that you want to have in the header of your reports.
 under Footer you fill in the text that you want to have in the footer of your reports.
 Tab accounting
+
 * VAT Country: Select the country abbreviation for the VAT tax.
 * VAT Number: VAT tax number of your organisation
 * Invoice Payment Term: Term for a client to pay the invoice
@@ -216,6 +225,7 @@ Tab accounting
 * Account payable: Select an account for the payables
 * Customer Tax Rule: Select the appropriate tax rule for your organisation situation
 * Supplier Tax Rule: Select the appropriate tax rule for your organisation situation
+
 When ready with all the tabs click on the Save this record button.
 
 Installing a Chart of Accounts
@@ -225,8 +235,10 @@ Go to: Financial management > Configuration > General account > Create Chart of 
 Template.
 Double click to start the wizard.
 In the screen Create Chart of Account:
+
 * Company: Select the organisation for which you create the chart of accounts.
 * Account Template: Select the template that you need for the accounting in your country.
+
 Click on the button Create.
 
 Language settings for the system
