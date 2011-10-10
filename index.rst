@@ -129,6 +129,21 @@ Click on the button Start Upgrade.
 When the module is installed, the wizard Welcome to the module configuration wizard! appear.
 Click on the OK button if you want to configure modules.
 
+Creating a Company
+------------------
+The wizard to create a company starts. This "company" will be the organisation for which you will use the
+Tryton system.
+
+The company submodule extends the party module and add several fields: the currency, the list of
+employees and header and footer texts for reports. There is also a parent company field which allow to
+setup companies in a tree structure. The company model represents the actual organisation the users of
+Tryton are members of.
+
+.. figure:: _static/company.jpg
+   :scale: 50 %
+   
+   The General tab of the Companies screen
+
 
 Indices and tables
 ==================
