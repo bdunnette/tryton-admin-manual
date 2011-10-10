@@ -332,22 +332,22 @@ Customer Invoice Sequence:
 Click on the OK button.
 
 Supplier Invoice Sequence:
-● Sequence Name: Supplier Invoice
-● Prefix: INV
-● Suffix: What is handy to use ???
+* Sequence Name: Supplier Invoice
+* Prefix: INV
+* Suffix: What is handy to use ???
 Click on the OK button.
 
 Customer Credit Note Sequence:
-● Sequence Name: Customer Credit Note
-● Prefix: CRE
-● Suffix: ???
+* Sequence Name: Customer Credit Note
+* Prefix: CRE
+* Suffix: ???
 Click on the OK button.
 
 Supplier Credit Note Sequence:
 
-● Sequence Name: Supplier Credit Note
-● Prefix: CREN
-● Suffix: ???
+* Sequence Name: Supplier Credit Note
+* Prefix: CREN
+* Suffix: ???
 Click on the OK button.
 
 Tab Periods
@@ -379,15 +379,15 @@ Menu > Financial Management > Configuration > General Account > Account Types > 
 The Account Type defines the structure of the accounting reports.
 Select an Account Type by double clicking on it.
 
-● Name: The name of the Account type (most of the time this is an accepted standard name).
-● Sequence: A sequence number ???
-● Company: The organisation for which the account type is used.
-● Parent: Parent Account type
-● Display Balance: A selection that allow to choose how the balance should be computed (Debit -
+* Name: The name of the Account type (most of the time this is an accepted standard name).
+* Sequence: A sequence number ???
+* Company: The organisation for which the account type is used.
+* Parent: Parent Account type
+* Display Balance: A selection that allow to choose how the balance should be computed (Debit -
 Credit or Credit - Debit)
-● Balance Sheet: A checkbox that tells if accounts of this type must appear at the top level of the
+* Balance Sheet: A checkbox that tells if accounts of this type must appear at the top level of the
 Balance Sheet report.
-● Income Statement: A checkbox that tells if accounts of this type must appear at the top level of the Income Statement report.
+* Income Statement: A checkbox that tells if accounts of this type must appear at the top level of the Income Statement report.
 
 
 Indices and tables
