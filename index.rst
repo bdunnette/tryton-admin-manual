@@ -115,14 +115,16 @@ A new empty User screen will appear for adding another user. If you do not want 
 Installing modules
 ------------------
 After you have added users with the wizard, a list of installable modules appear.
-To start a minimal system select first an accounting module by double clicking on the name and then
-click on the *Mark for Installation* button.
+
+To start a minimal system select first an accounting module by double clicking on the name and then click on the *Mark for Installation* button.
+
 * account_nl # Select the accounting module for your country.
+
 Click on the tab Dependencies.
-When you select a module to install, other modules on which it is dependent will be installed too (in this
-case the module account will be installed too).
-When you have selected the module you want to install, click on the button Perform Pending Installation/
-Update. The screen System Upgrade appears with all the modules that will be installed.
+
+When you select a module to install, other modules on which it is dependent will be installed too (in this case the module account will be installed too).
+
+When you have selected the module you want to install, click on the button *Perform Pending Installation/Update*. The screen System Upgrade appears with all the modules that will be installed.
 Click on the button Start Upgrade.
 When the module is installed, the wizard Welcome to the module configuration wizard! appear.
 Click on the OK button if you want to configure modules.
