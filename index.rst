@@ -139,7 +139,7 @@ employees and header and footer texts for reports. There is also a parent compan
 setup companies in a tree structure. The company model represents the actual organisation the users of
 Tryton are members of.
 
-.. figure:: _static/company.jpg
+.. figure:: images/company.jpg
    :scale: 50 %
    
    The General tab of the Companies screen
