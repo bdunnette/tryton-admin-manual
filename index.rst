@@ -297,7 +297,77 @@ Double click on New Fiscal Year.
    
    The Periods tab of the Fiscal Years screen
 
+Tab Periods
+* Name: The name of the fiscal year. For example: 2011
+* Code: The fiscal year code, useful for fast data entry and searching.
+* Starting Date: 01-01-2011
+* Ending Date: 31-12-2011
+* Company: The organisation for which the fiscal year is defined.
+* State: The state can be Open or Closed. When you start accounting in this period it must be Open.
 
+Before you can create Periods you must first create the Sequences.
+
+Sequences
+"""""""""
+.. figure:: images/fiscal-year-sequences.png
+   :scale: 50 %
+   
+   The Sequences tab of the Fiscal Years screen
+
+In this tab you can create sequences that are used for numbering, for example invoices (INV0001).
+
+When you try to save a record and fields become red, this means you have to fill these fields before you can save the form.
+For each sequence click on the Create a new record button.
+
+Post Move Sequences: The sequence to use for numbering moves in this fiscal year.
+* Sequence Name: Post Move What is handy to use ???
+* Prefix: PM
+* Suffix: What is handy to use ???
+Click on the OK button.
+
+Customer Invoice Sequence:
+* Sequence Name: Customer Invoice
+* Prefix: INV
+* Suffix: What is handy to use ???
+Click on the OK button.
+
+Supplier Invoice Sequence:
+● Sequence Name: Supplier Invoice
+● Prefix: INV
+● Suffix: What is handy to use ???
+Click on the OK button.
+
+Customer Credit Note Sequence:
+● Sequence Name: Customer Credit Note
+● Prefix: CRE
+● Suffix: ???
+Click on the OK button.
+
+Supplier Credit Note Sequence:
+
+● Sequence Name: Supplier Credit Note
+● Prefix: CREN
+● Suffix: ???
+Click on the OK button.
+
+Tab Periods
+Click on the Create monthly Periods button.
+
+Periods
+"""""""
+Menu > Financial Management > Configuration > Fiscal Years > Periods (Double click)
+Select a period by double clicking on it.
+A period is mainly defined by a Starting and an Ending date, a Fiscal Year, a Type and a State (Open or
+Closed ).
+The type can be Standard or Adjustement: Periods of the type Standard on the same fiscal year can
+not overlap. Period of type Adjustement can overlap other periods and are typically used for all the
+accounting moves that must be created when closing a fiscal year. By default, the system uses only
+Standard period when creating moves.
+Each account move must be linked to a period and a move must be created on an open period.
+With the button Close Periods you can close a selected period, accounting for that period is not possible
+anymore. You can use the Re-Open Periods button to open a selected period again.
+With the Next record button you can select the next Period.
+When your done click finally on the Save this record button.
 
 
 
