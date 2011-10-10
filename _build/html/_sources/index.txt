@@ -62,7 +62,7 @@ Creating users
 The first configuration step in the wizard is *Add users*.
 If you want to create new users click on the *OK* button.
 
-.. figure:: user-screen.png
+.. figure:: images/user-screen.png
    :scale: 50 %
    
    The User tab on the Users screen
@@ -139,7 +139,7 @@ employees and header and footer texts for reports. There is also a parent compan
 setup companies in a tree structure. The company model represents the actual organisation the users of
 Tryton are members of.
 
-.. figure:: _static/company.jpg
+.. figure:: images/company.jpg
    :scale: 50 %
    
    The General tab of the Companies screen
