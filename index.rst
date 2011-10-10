@@ -225,8 +225,8 @@ Go to: Financial management > Configuration > General account > Create Chart of 
 Template.
 Double click to start the wizard.
 In the screen Create Chart of Account:
-● Company: Select the organisation for which you create the chart of accounts.
-● Account Template: Select the template that you need for the accounting in your country.
+* Company: Select the organisation for which you create the chart of accounts.
+* Account Template: Select the template that you need for the accounting in your country.
 Click on the button Create.
 
 Language settings for the system
@@ -241,7 +241,7 @@ Selecting other modules
 You can now select the modules you need for your organisation processes.
 Menu > Administration > Modules > Modules
 To create a basic system, select and install the following modules:
-● account_invoice
+* account_invoice
 When you have selected a module you want to install, click on the Perform Pending Installation/Update
 button, and then the Start Upgrade button.
 When the module is installed, a “Welcome to the module configuration wizard!” message will appear.
@@ -252,12 +252,14 @@ Access management
 To create a new group that has access to certain modules go to:
 Administration > Modules > Modules access (double click)
 In the Models access screen click on the button Create a new record.
-● Model: Select a model to which the group will have access.
-● Group: The group name.
-● Read access: Check this box if you want to give read access to the model.
-● Write access: Check this box if you want to give write access to the model.
-● Create access: Check this box if you want to give create access to the model.
-● Delete access: Check this box if you want to give delete access to the model.
+
+* Model: Select a model to which the group will have access.
+* Group: The group name.
+* Read access: Check this box if you want to give read access to the model.
+* Write access: Check this box if you want to give write access to the model.
+* Create access: Check this box if you want to give create access to the model.
+* Delete access: Check this box if you want to give delete access to the model.
+
 When you create for the Group a new record you get the Group screen.
 Go to the tab Access Permissions.
 
@@ -266,9 +268,10 @@ Configuring Accounts
 The settings in the accounting module define fundamentals for most of your accounting needs.
 To be able to use your accounting system without problems, we first have to create a fiscal year and
 accounting periods.
+
 Fiscal Years
-A fiscal year aggregates a set of periods that are included between two dates. A Fiscal Year can be
-Open or Closed. Closing a fiscal year will close all the corresponding periods - once a period is closed,
+------------
+A fiscal year aggregates a set of periods that are included between two dates. A Fiscal Year can be Open or Closed. Closing a fiscal year will close all the corresponding periods - once a period is closed,
 users can not make any further changes in that fiscal period.
 Menu > Financial Management > Configuration > Fiscal Years > Fiscal Years
 Double click on New Fiscal Year.
