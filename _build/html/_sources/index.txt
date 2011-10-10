@@ -145,7 +145,7 @@ Tryton are members of.
    The General tab of the Companies screen
 
 Companies screen
-^^^^^^^^^^^^^^^^
+""""""""""""""""
 * Name: Your organisation name
 * Parent: The parent company (if one exists).
 * Currency: The currency that your organisation uses.
@@ -153,6 +153,7 @@ Companies screen
 * VAT Number: When you select a VAT Country abbreviation you have to fill this field.
 
 General Tab
+
 In the group Addresses.
 This address will show up later in your invoices.
 
@@ -183,7 +184,7 @@ Click on the button Create a new record, the Employee screen apears.
 In the screen Employee click on the tab General.
 
 General Tab
-^^^^^^^^^^^
+
 In the group Addresses.
 
 * Name: The employee name
