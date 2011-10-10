@@ -145,6 +145,7 @@ Tryton are members of.
    The General tab of the Companies screen
 
 Companies screen
+^^^^^^^^^^^^^^^^
 * Name: Your organisation name
 * Parent: The parent company (if one exists).
 * Currency: The currency that your organisation uses.
