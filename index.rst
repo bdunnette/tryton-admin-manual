@@ -62,7 +62,7 @@ Creating users
 The first configuration step in the wizard is *Add users*.
 If you want to create new users click on the *OK* button.
 
-.. figure:: user-screen.png
+.. figure:: _static/user-screen.png
    :scale: 50 %
    
    The User tab on the Users screen
