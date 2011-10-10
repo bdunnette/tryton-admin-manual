@@ -204,6 +204,7 @@ In the group Categories.
 These categories can be used to organize or “tag” employees.
 
 Tab Accounting
+
 * VAT Country: Select the country abbreviation for the VAT tax.
 * VAT Number: VAT number of the employee ??? (subcontractor?)
 * Invoice Payment Term: Term for a client to pay the invoice
@@ -233,8 +234,7 @@ When ready with all the tabs click on the Save this record button.
 Installing a Chart of Accounts
 ------------------------------
 Before we go further with installing and configuring modules we are going to create a chart of account.
-Go to: Financial management > Configuration > General account > Create Chart of Account from
-Template.
+Go to: Financial management > Configuration > General account > Create Chart of Account from Template.
 Double click to start the wizard.
 In the screen Create Chart of Account:
 
@@ -255,7 +255,9 @@ Selecting other modules
 You can now select the modules you need for your organisation processes.
 Menu > Administration > Modules > Modules
 To create a basic system, select and install the following modules:
+
 * account_invoice
+
 When you have selected a module you want to install, click on the Perform Pending Installation/Update
 button, and then the Start Upgrade button.
 When the module is installed, a “Welcome to the module configuration wizard!” message will appear.
