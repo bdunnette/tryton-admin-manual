@@ -320,24 +320,28 @@ When you try to save a record and fields become red, this means you have to fill
 For each sequence click on the Create a new record button.
 
 Post Move Sequences: The sequence to use for numbering moves in this fiscal year.
+
 * Sequence Name: Post Move What is handy to use ???
 * Prefix: PM
 * Suffix: What is handy to use ???
 Click on the OK button.
 
 Customer Invoice Sequence:
+
 * Sequence Name: Customer Invoice
 * Prefix: INV
 * Suffix: What is handy to use ???
 Click on the OK button.
 
 Supplier Invoice Sequence:
+
 * Sequence Name: Supplier Invoice
 * Prefix: INV
 * Suffix: What is handy to use ???
 Click on the OK button.
 
 Customer Credit Note Sequence:
+
 * Sequence Name: Customer Credit Note
 * Prefix: CRE
 * Suffix: ???
