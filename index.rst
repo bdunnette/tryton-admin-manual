@@ -144,6 +144,100 @@ Tryton are members of.
    
    The General tab of the Companies screen
 
+Companies screen
+* Name: Your organisation name
+* Parent: The parent company (if one exists).
+* Currency: The currency that your organisation uses.
+* VAT Country: select the abbreviation for your country
+* VAT Number: When you select a VAT Country abbreviation you have to fill this field.
+
+General Tab
+In the group Addresses.
+This address will show up later in your invoices.
+* Name: Your organisation name
+* Active: Check this box if you want to be this organisation active
+* Invoice: Check this box if you can invoice this organisation Is this correct ???
+* Street: Streetname of your organisation
+* Street (bis): Alternative streetname of your organisation
+* ZIP: Post code of your organisation
+* City: City where your organisation is situated
+* Country: Country where your organisation is situated
+9
+*
+Subdivision: State or province where your organisation is situated
+Language: select one of the available languages.
+In the group Contact mechanisms.
+These contact mechanisms are the various ways (Email, Phone, Skype) by which a company can be
+contacted - they appear on your reports (invoices, etc.)
+In the group Categories.
+These categories can be used to organize or “tag” parties (including
+companies).
+Click on the tab Employees.
+Tab Employees
+Click on the button Create a new record, the Employee screen apears.
+* Name: First and last name of the employee
+* Active: Check this box if the employee is active in the organisation.
+In the screen Employee click on the tab General.
+Tab General
+In the group Addresses.
+* Name: The employee name
+* Active: Check this box if this employee is active
+* Invoice: Check this box if you can invoice this employee
+* Street: Streetname for your employee
+* Street (bis): Alternative streetname for your employee
+* ZIP: Post code of the employee
+* City: City where your employee is situated
+* Country: Country where your employee is situated
+* Subdivision: State or province where your employee is situated
+Language: select one of the available languages.
+In the group Contact mechanisms.
+These are the various ways (Email, Phone, Skype) by which this employee can be contacted.
+In the group Categories.
+These categories can be used to organize or “tag” employees.
+Tab Accounting
+When do you have to fill this tab for an employee?
+* VAT Country: Select the country abbreviation for the VAT tax.
+* VAT Number: VAT number of the employee ??? (subcontractor?)
+* Invoice Payment Term: Term for a client to pay the invoice
+* Supplier Payment Term: Term for a supplier to pay the invoice
+* Account receivable: Select an account for the receivables
+* Account payable: Select an account for the payables (is this the account for the salaries?)
+* Customer Tax Rule: Select the appropriate tax rule for your situation
+* Supplier Tax Rule: Select the appropriate tax rule for your situation
+
+Click on the OK button when done.
+Tab Reports
+Under Header you fill in the text that you want to have in the header of your reports.
+under Footer you fill in the text that you want to have in the footer of your reports.
+Tab accounting
+* VAT Country: Select the country abbreviation for the VAT tax.
+* VAT Number: VAT tax number of your organisation
+* Invoice Payment Term: Term for a client to pay the invoice
+* Supplier Payment Term: Term for a supplier to pay the invoice
+* Account receivable: Select an account for the receivables
+* Account payable: Select an account for the payables
+* Customer Tax Rule: Select the appropriate tax rule for your organisation situation
+* Supplier Tax Rule: Select the appropriate tax rule for your organisation situation
+When ready with all the tabs click on the Save this record button.
+
+Installing a Chart of Accounts
+------------------------------
+Before we go further with installing and configuring modules we are going to create a chart of account.
+Go to: Financial management > Configuration > General account > Create Chart of Account from
+Template.
+Double click to start the wizard.
+In the screen Create Chart of Account:
+● Company: Select the organisation for which you create the chart of accounts.
+● Account Template: Select the template that you need for the accounting in your country.
+Click on the button Create.
+
+Language settings for the system
+--------------------------------
+If you have users that want to use different languages in the system, you first have to set these
+languages active and translatable.
+Go to the (left of the screen) Menu and select Administration > Localization > Languages (double click).
+Select for the language of your choice the Translatable and Active check boxes. Save your settings.
+
 
 Indices and tables
 ==================
