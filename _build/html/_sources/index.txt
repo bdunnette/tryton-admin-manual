@@ -324,6 +324,7 @@ Post Move Sequences: The sequence to use for numbering moves in this fiscal year
 * Sequence Name: Post Move What is handy to use ???
 * Prefix: PM
 * Suffix: What is handy to use ???
+
 Click on the OK button.
 
 Customer Invoice Sequence:
@@ -331,6 +332,7 @@ Customer Invoice Sequence:
 * Sequence Name: Customer Invoice
 * Prefix: INV
 * Suffix: What is handy to use ???
+
 Click on the OK button.
 
 Supplier Invoice Sequence:
@@ -338,6 +340,7 @@ Supplier Invoice Sequence:
 * Sequence Name: Supplier Invoice
 * Prefix: INV
 * Suffix: What is handy to use ???
+
 Click on the OK button.
 
 Customer Credit Note Sequence:
