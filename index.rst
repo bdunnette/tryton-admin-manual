@@ -390,10 +390,8 @@ Select an Account Type by double clicking on it.
 * Sequence: A sequence number ???
 * Company: The organisation for which the account type is used.
 * Parent: Parent Account type
-* Display Balance: A selection that allow to choose how the balance should be computed (Debit -
-Credit or Credit - Debit)
-* Balance Sheet: A checkbox that tells if accounts of this type must appear at the top level of the
-Balance Sheet report.
+* Display Balance: A selection that allow to choose how the balance should be computed (Debit - Credit or Credit - Debit)
+* Balance Sheet: A checkbox that tells if accounts of this type must appear at the top level of the Balance Sheet report.
 * Income Statement: A checkbox that tells if accounts of this type must appear at the top level of the Income Statement report.
 
 
