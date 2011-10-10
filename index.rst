@@ -369,6 +369,25 @@ anymore. You can use the Re-Open Periods button to open a selected period again.
 With the Next record button you can select the next Period.
 When your done click finally on the Save this record button.
 
+Account
+-------
+Account Type
+""""""""""""
+When the Chart of Accounts is installed correctly most of the fields are filled automatically.
+Menu > Financial Management > Configuration > General Account > Account Types > Account Types
+
+The Account Type defines the structure of the accounting reports.
+Select an Account Type by double clicking on it.
+
+● Name: The name of the Account type (most of the time this is an accepted standard name).
+● Sequence: A sequence number ???
+● Company: The organisation for which the account type is used.
+● Parent: Parent Account type
+● Display Balance: A selection that allow to choose how the balance should be computed (Debit -
+Credit or Credit - Debit)
+● Balance Sheet: A checkbox that tells if accounts of this type must appear at the top level of the
+Balance Sheet report.
+● Income Statement: A checkbox that tells if accounts of this type must appear at the top level of the Income Statement report.
 
 
 Indices and tables
