@@ -156,15 +156,13 @@ In the group Addresses.
 This address will show up later in your invoices.
 * Name: Your organisation name
 * Active: Check this box if you want to be this organisation active
-* Invoice: Check this box if you can invoice this organisation Is this correct ???
+* Invoice: Check this box if this is an address where invoices should be sent 
 * Street: Streetname of your organisation
 * Street (bis): Alternative streetname of your organisation
 * ZIP: Post code of your organisation
 * City: City where your organisation is situated
 * Country: Country where your organisation is situated
-9
-*
-Subdivision: State or province where your organisation is situated
+* Subdivision: State or province where your organisation is situated
 Language: select one of the available languages.
 In the group Contact mechanisms.
 These contact mechanisms are the various ways (Email, Phone, Skype) by which a company can be
@@ -237,6 +235,51 @@ If you have users that want to use different languages in the system, you first 
 languages active and translatable.
 Go to the (left of the screen) Menu and select Administration > Localization > Languages (double click).
 Select for the language of your choice the Translatable and Active check boxes. Save your settings.
+
+Selecting other modules
+-----------------------
+You can now select the modules you need for your organisation processes.
+Menu > Administration > Modules > Modules
+To create a basic system, select and install the following modules:
+● account_invoice
+When you have selected a module you want to install, click on the Perform Pending Installation/Update
+button, and then the Start Upgrade button.
+When the module is installed, a “Welcome to the module configuration wizard!” message will appear.
+Click on the OK button if you want to configure the module.
+
+Access management
+-----------------
+To create a new group that has access to certain modules go to:
+Administration > Modules > Modules access (double click)
+In the Models access screen click on the button Create a new record.
+● Model: Select a model to which the group will have access.
+● Group: The group name.
+● Read access: Check this box if you want to give read access to the model.
+● Write access: Check this box if you want to give write access to the model.
+● Create access: Check this box if you want to give create access to the model.
+● Delete access: Check this box if you want to give delete access to the model.
+When you create for the Group a new record you get the Group screen.
+Go to the tab Access Permissions.
+
+Configuring Accounts
+====================
+The settings in the accounting module define fundamentals for most of your accounting needs.
+To be able to use your accounting system without problems, we first have to create a fiscal year and
+accounting periods.
+Fiscal Years
+A fiscal year aggregates a set of periods that are included between two dates. A Fiscal Year can be
+Open or Closed. Closing a fiscal year will close all the corresponding periods - once a period is closed,
+users can not make any further changes in that fiscal period.
+Menu > Financial Management > Configuration > Fiscal Years > Fiscal Years
+Double click on New Fiscal Year.
+
+.. figure:: images/fiscal-year.png
+   :scale: 50 %
+   
+   The Periods tab of the Fiscal Years screen
+
+
+
 
 
 Indices and tables
