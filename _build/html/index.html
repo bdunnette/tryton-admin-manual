@@ -111,7 +111,7 @@ This manual is primarily targeted on the Tryton administrator. This manual can a
 <p>The first configuration step in the wizard is <em>Add users</em>.
 If you want to create new users click on the <em>OK</em> button.</p>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/user-screen5.png"><img alt="_images/user-screen5.png" src="_images/user-screen5.png" style="width: 753.5px; height: 475.0px;" /></a>
+<a class="reference internal image-reference" href="_images/user-screen6.png"><img alt="_images/user-screen6.png" src="_images/user-screen6.png" style="width: 753.5px; height: 475.0px;" /></a>
 <p class="caption">The User tab on the Users screen</p>
 </div>
 <p>On the screen Users, go to the User tab:</p>
@@ -184,7 +184,7 @@ employees and header and footer texts for reports. There is also a parent compan
 setup companies in a tree structure. The company model represents the actual organisation the users of
 Tryton are members of.</p>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/company6.jpg"><img alt="_images/company6.jpg" src="_images/company6.jpg" style="width: 800.0px; height: 446.5px;" /></a>
+<a class="reference internal image-reference" href="_images/company7.jpg"><img alt="_images/company7.jpg" src="_images/company7.jpg" style="width: 800.0px; height: 446.5px;" /></a>
 <p class="caption">The General tab of the Companies screen</p>
 </div>
 <div class="section" id="companies-screen">
@@ -333,7 +333,7 @@ users can not make any further changes in that fiscal period.
 Menu &gt; Financial Management &gt; Configuration &gt; Fiscal Years &gt; Fiscal Years
 Double click on New Fiscal Year.</p>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/fiscal-year4.png"><img alt="_images/fiscal-year4.png" src="_images/fiscal-year4.png" style="width: 755.5px; height: 477.0px;" /></a>
+<a class="reference internal image-reference" href="_images/fiscal-year5.png"><img alt="_images/fiscal-year5.png" src="_images/fiscal-year5.png" style="width: 755.5px; height: 477.0px;" /></a>
 <p class="caption">The Periods tab of the Fiscal Years screen</p>
 </div>
 <p>Tab Periods
@@ -347,37 +347,47 @@ Double click on New Fiscal Year.</p>
 <div class="section" id="sequences">
 <h3>Sequences<a class="headerlink" href="#sequences" title="Permalink to this headline">¶</a></h3>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/fiscal-year-sequences.png"><img alt="_images/fiscal-year-sequences.png" src="_images/fiscal-year-sequences.png" style="width: 753.5px; height: 476.0px;" /></a>
+<a class="reference internal image-reference" href="_images/fiscal-year-sequences1.png"><img alt="_images/fiscal-year-sequences1.png" src="_images/fiscal-year-sequences1.png" style="width: 753.5px; height: 476.0px;" /></a>
 <p class="caption">The Sequences tab of the Fiscal Years screen</p>
 </div>
 <p>In this tab you can create sequences that are used for numbering, for example invoices (INV0001).</p>
 <p>When you try to save a record and fields become red, this means you have to fill these fields before you can save the form.
 For each sequence click on the Create a new record button.</p>
-<p>Post Move Sequences: The sequence to use for numbering moves in this fiscal year.
-* Sequence Name: Post Move What is handy to use ???
-* Prefix: PM
-* Suffix: What is handy to use ???
-Click on the OK button.</p>
-<p>Customer Invoice Sequence:
-* Sequence Name: Customer Invoice
-* Prefix: INV
-* Suffix: What is handy to use ???
-Click on the OK button.</p>
-<p>Supplier Invoice Sequence:
-● Sequence Name: Supplier Invoice
-● Prefix: INV
-● Suffix: What is handy to use ???
-Click on the OK button.</p>
-<p>Customer Credit Note Sequence:
-● Sequence Name: Customer Credit Note
-● Prefix: CRE
-● Suffix: ???
-Click on the OK button.</p>
+<p>Post Move Sequences: The sequence to use for numbering moves in this fiscal year.</p>
+<ul class="simple">
+<li>Sequence Name: Post Move What is handy to use ???</li>
+<li>Prefix: PM</li>
+<li>Suffix: What is handy to use ???</li>
+</ul>
+<p>Click on the OK button.</p>
+<p>Customer Invoice Sequence:</p>
+<ul class="simple">
+<li>Sequence Name: Customer Invoice</li>
+<li>Prefix: INV</li>
+<li>Suffix: What is handy to use ???</li>
+</ul>
+<p>Click on the OK button.</p>
+<p>Supplier Invoice Sequence:</p>
+<ul class="simple">
+<li>Sequence Name: Supplier Invoice</li>
+<li>Prefix: INV</li>
+<li>Suffix: What is handy to use ???</li>
+</ul>
+<p>Click on the OK button.</p>
+<p>Customer Credit Note Sequence:</p>
+<ul class="simple">
+<li>Sequence Name: Customer Credit Note</li>
+<li>Prefix: CRE</li>
+<li>Suffix: ???</li>
+</ul>
+<p>Click on the OK button.</p>
 <p>Supplier Credit Note Sequence:</p>
-<p>● Sequence Name: Supplier Credit Note
-● Prefix: CREN
-● Suffix: ???
-Click on the OK button.</p>
+<ul class="simple">
+<li>Sequence Name: Supplier Credit Note</li>
+<li>Prefix: CREN</li>
+<li>Suffix: ???</li>
+</ul>
+<p>Click on the OK button.</p>
 <p>Tab Periods
 Click on the Create monthly Periods button.</p>
 </div>
@@ -406,15 +416,17 @@ When your done click finally on the Save this record button.</p>
 Menu &gt; Financial Management &gt; Configuration &gt; General Account &gt; Account Types &gt; Account Types</p>
 <p>The Account Type defines the structure of the accounting reports.
 Select an Account Type by double clicking on it.</p>
-<p>● Name: The name of the Account type (most of the time this is an accepted standard name).
-● Sequence: A sequence number ???
-● Company: The organisation for which the account type is used.
-● Parent: Parent Account type
-● Display Balance: A selection that allow to choose how the balance should be computed (Debit -
-Credit or Credit - Debit)
-● Balance Sheet: A checkbox that tells if accounts of this type must appear at the top level of the
+<ul class="simple">
+<li>Name: The name of the Account type (most of the time this is an accepted standard name).</li>
+<li>Sequence: A sequence number ???</li>
+<li>Company: The organisation for which the account type is used.</li>
+<li>Parent: Parent Account type</li>
+<li>Display Balance: A selection that allow to choose how the balance should be computed (Debit -</li>
+</ul>
+<p>Credit or Credit - Debit)
+* Balance Sheet: A checkbox that tells if accounts of this type must appear at the top level of the
 Balance Sheet report.
-● Income Statement: A checkbox that tells if accounts of this type must appear at the top level of the Income Statement report.</p>
+* Income Statement: A checkbox that tells if accounts of this type must appear at the top level of the Income Statement report.</p>
 </div>
 </div>
 </div>
