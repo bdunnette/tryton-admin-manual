@@ -111,7 +111,7 @@ This manual is primarily targeted on the Tryton administrator. This manual can a
 <p>The first configuration step in the wizard is <em>Add users</em>.
 If you want to create new users click on the <em>OK</em> button.</p>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/user-screen4.png"><img alt="_images/user-screen4.png" src="_images/user-screen4.png" style="width: 753.5px; height: 475.0px;" /></a>
+<a class="reference internal image-reference" href="_images/user-screen5.png"><img alt="_images/user-screen5.png" src="_images/user-screen5.png" style="width: 753.5px; height: 475.0px;" /></a>
 <p class="caption">The User tab on the Users screen</p>
 </div>
 <p>On the screen Users, go to the User tab:</p>
@@ -184,7 +184,7 @@ employees and header and footer texts for reports. There is also a parent compan
 setup companies in a tree structure. The company model represents the actual organisation the users of
 Tryton are members of.</p>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/company5.jpg"><img alt="_images/company5.jpg" src="_images/company5.jpg" style="width: 800.0px; height: 446.5px;" /></a>
+<a class="reference internal image-reference" href="_images/company6.jpg"><img alt="_images/company6.jpg" src="_images/company6.jpg" style="width: 800.0px; height: 446.5px;" /></a>
 <p class="caption">The General tab of the Companies screen</p>
 </div>
 <div class="section" id="companies-screen">
@@ -243,15 +243,17 @@ In the group Contact mechanisms.
 These are the various ways (Email, Phone, Skype) by which this employee can be contacted.
 In the group Categories.
 These categories can be used to organize or “tag” employees.</p>
-<p>Tab Accounting
-* VAT Country: Select the country abbreviation for the VAT tax.
-* VAT Number: VAT number of the employee ??? (subcontractor?)
-* Invoice Payment Term: Term for a client to pay the invoice
-* Supplier Payment Term: Term for a supplier to pay the invoice
-* Account receivable: Select an account for the receivables
-* Account payable: Select an account for the payables (is this the account for the salaries?)
-* Customer Tax Rule: Select the appropriate tax rule for your situation
-* Supplier Tax Rule: Select the appropriate tax rule for your situation</p>
+<p>Tab Accounting</p>
+<ul class="simple">
+<li>VAT Country: Select the country abbreviation for the VAT tax.</li>
+<li>VAT Number: VAT number of the employee ??? (subcontractor?)</li>
+<li>Invoice Payment Term: Term for a client to pay the invoice</li>
+<li>Supplier Payment Term: Term for a supplier to pay the invoice</li>
+<li>Account receivable: Select an account for the receivables</li>
+<li>Account payable: Select an account for the payables (is this the account for the salaries?)</li>
+<li>Customer Tax Rule: Select the appropriate tax rule for your situation</li>
+<li>Supplier Tax Rule: Select the appropriate tax rule for your situation</li>
+</ul>
 <p>Click on the OK button when done.
 Tab Reports
 Under Header you fill in the text that you want to have in the header of your reports.
@@ -273,8 +275,7 @@ Tab accounting</p>
 <div class="section" id="installing-a-chart-of-accounts">
 <h2>Installing a Chart of Accounts<a class="headerlink" href="#installing-a-chart-of-accounts" title="Permalink to this headline">¶</a></h2>
 <p>Before we go further with installing and configuring modules we are going to create a chart of account.
-Go to: Financial management &gt; Configuration &gt; General account &gt; Create Chart of Account from
-Template.
+Go to: Financial management &gt; Configuration &gt; General account &gt; Create Chart of Account from Template.
 Double click to start the wizard.
 In the screen Create Chart of Account:</p>
 <ul class="simple">
@@ -294,9 +295,11 @@ Select for the language of your choice the Translatable and Active check boxes. 
 <h2>Selecting other modules<a class="headerlink" href="#selecting-other-modules" title="Permalink to this headline">¶</a></h2>
 <p>You can now select the modules you need for your organisation processes.
 Menu &gt; Administration &gt; Modules &gt; Modules
-To create a basic system, select and install the following modules:
-* account_invoice
-When you have selected a module you want to install, click on the Perform Pending Installation/Update
+To create a basic system, select and install the following modules:</p>
+<ul class="simple">
+<li>account_invoice</li>
+</ul>
+<p>When you have selected a module you want to install, click on the Perform Pending Installation/Update
 button, and then the Start Upgrade button.
 When the module is installed, a “Welcome to the module configuration wizard!” message will appear.
 Click on the OK button if you want to configure the module.</p>
@@ -330,8 +333,88 @@ users can not make any further changes in that fiscal period.
 Menu &gt; Financial Management &gt; Configuration &gt; Fiscal Years &gt; Fiscal Years
 Double click on New Fiscal Year.</p>
 <div class="figure">
-<a class="reference internal image-reference" href="_images/fiscal-year3.png"><img alt="_images/fiscal-year3.png" src="_images/fiscal-year3.png" style="width: 755.5px; height: 477.0px;" /></a>
+<a class="reference internal image-reference" href="_images/fiscal-year4.png"><img alt="_images/fiscal-year4.png" src="_images/fiscal-year4.png" style="width: 755.5px; height: 477.0px;" /></a>
 <p class="caption">The Periods tab of the Fiscal Years screen</p>
+</div>
+<p>Tab Periods
+* Name: The name of the fiscal year. For example: 2011
+* Code: The fiscal year code, useful for fast data entry and searching.
+* Starting Date: 01-01-2011
+* Ending Date: 31-12-2011
+* Company: The organisation for which the fiscal year is defined.
+* State: The state can be Open or Closed. When you start accounting in this period it must be Open.</p>
+<p>Before you can create Periods you must first create the Sequences.</p>
+<div class="section" id="sequences">
+<h3>Sequences<a class="headerlink" href="#sequences" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/fiscal-year-sequences.png"><img alt="_images/fiscal-year-sequences.png" src="_images/fiscal-year-sequences.png" style="width: 753.5px; height: 476.0px;" /></a>
+<p class="caption">The Sequences tab of the Fiscal Years screen</p>
+</div>
+<p>In this tab you can create sequences that are used for numbering, for example invoices (INV0001).</p>
+<p>When you try to save a record and fields become red, this means you have to fill these fields before you can save the form.
+For each sequence click on the Create a new record button.</p>
+<p>Post Move Sequences: The sequence to use for numbering moves in this fiscal year.
+* Sequence Name: Post Move What is handy to use ???
+* Prefix: PM
+* Suffix: What is handy to use ???
+Click on the OK button.</p>
+<p>Customer Invoice Sequence:
+* Sequence Name: Customer Invoice
+* Prefix: INV
+* Suffix: What is handy to use ???
+Click on the OK button.</p>
+<p>Supplier Invoice Sequence:
+● Sequence Name: Supplier Invoice
+● Prefix: INV
+● Suffix: What is handy to use ???
+Click on the OK button.</p>
+<p>Customer Credit Note Sequence:
+● Sequence Name: Customer Credit Note
+● Prefix: CRE
+● Suffix: ???
+Click on the OK button.</p>
+<p>Supplier Credit Note Sequence:</p>
+<p>● Sequence Name: Supplier Credit Note
+● Prefix: CREN
+● Suffix: ???
+Click on the OK button.</p>
+<p>Tab Periods
+Click on the Create monthly Periods button.</p>
+</div>
+<div class="section" id="periods">
+<h3>Periods<a class="headerlink" href="#periods" title="Permalink to this headline">¶</a></h3>
+<p>Menu &gt; Financial Management &gt; Configuration &gt; Fiscal Years &gt; Periods (Double click)
+Select a period by double clicking on it.
+A period is mainly defined by a Starting and an Ending date, a Fiscal Year, a Type and a State (Open or
+Closed ).
+The type can be Standard or Adjustement: Periods of the type Standard on the same fiscal year can
+not overlap. Period of type Adjustement can overlap other periods and are typically used for all the
+accounting moves that must be created when closing a fiscal year. By default, the system uses only
+Standard period when creating moves.
+Each account move must be linked to a period and a move must be created on an open period.
+With the button Close Periods you can close a selected period, accounting for that period is not possible
+anymore. You can use the Re-Open Periods button to open a selected period again.
+With the Next record button you can select the next Period.
+When your done click finally on the Save this record button.</p>
+</div>
+</div>
+<div class="section" id="account">
+<h2>Account<a class="headerlink" href="#account" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="account-type">
+<h3>Account Type<a class="headerlink" href="#account-type" title="Permalink to this headline">¶</a></h3>
+<p>When the Chart of Accounts is installed correctly most of the fields are filled automatically.
+Menu &gt; Financial Management &gt; Configuration &gt; General Account &gt; Account Types &gt; Account Types</p>
+<p>The Account Type defines the structure of the accounting reports.
+Select an Account Type by double clicking on it.</p>
+<p>● Name: The name of the Account type (most of the time this is an accepted standard name).
+● Sequence: A sequence number ???
+● Company: The organisation for which the account type is used.
+● Parent: Parent Account type
+● Display Balance: A selection that allow to choose how the balance should be computed (Debit -
+Credit or Credit - Debit)
+● Balance Sheet: A checkbox that tells if accounts of this type must appear at the top level of the
+Balance Sheet report.
+● Income Statement: A checkbox that tells if accounts of this type must appear at the top level of the Income Statement report.</p>
 </div>
 </div>
 </div>
@@ -382,7 +465,15 @@ Double click on New Fiscal Year.</p>
 </ul>
 </li>
 <li><a class="reference internal" href="#configuring-accounts">Configuring Accounts</a><ul>
-<li><a class="reference internal" href="#fiscal-years">Fiscal Years</a></li>
+<li><a class="reference internal" href="#fiscal-years">Fiscal Years</a><ul>
+<li><a class="reference internal" href="#sequences">Sequences</a></li>
+<li><a class="reference internal" href="#periods">Periods</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#account">Account</a><ul>
+<li><a class="reference internal" href="#account-type">Account Type</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
