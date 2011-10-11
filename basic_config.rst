@@ -3,12 +3,12 @@ Basic Configuration
 When a new database is created in Tryton and when you log in that database for the first time, you get the screen:
 *Welcome to the module configuration wizard!*
 
-Click on the *OK* button if you want to configure modules.
+Click on the :guilabel:`OK` button if you want to configure modules.
 
 Creating users
 --------------
-The first configuration step in the wizard is *Add users*.
-If you want to create new users click on the *OK* button.
+The first configuration step in the :term:`wizard` is *Add users*.
+If you want to create new users click on the :guilabel:`OK` button.
 
 .. figure:: images/user-screen.png
    :scale: 50 %
@@ -33,14 +33,14 @@ Check the Active box if you want this user to be active. You can block the acces
 Access Permissions Tab
 """"""""""""""""""""""
 
-Under Groups click on the *Add* button and select the groups to which the user will belong.
+Under Groups click on the :guilabel:`Add` button and select the groups to which the user will belong.
 Select existing groups or create a new one.
 
-Under Rules click on the *Add* button to add a rule.
+Under Rules click on the :guilabel:`Add` button to add a :term:`rule`.
 With a rule you can manage in detail what kind of access a user has on the different modules/fields.
 Click on the New button and you get the Record rules screen.
 
-    * Model: The model description.
+    * Model: The :term:`model` description.
     * Global: Check this box so the rule becomes global and every user must follow this rule.
     * Default: If you check this box the rule will be added to all users by default.
     * Read access: Check this box if you want to give read access to model.
@@ -79,7 +79,7 @@ Click on the OK button if you want to configure modules.
 
 Creating a Company
 ------------------
-The wizard to create a company starts. This "company" will be the organisation for which you will use the
+The wizard to create a :term:`company` starts. This "company" will be the organisation for which you will use the
 Tryton system.
 
 The company submodule extends the party module and add several fields: the currency, the list of
@@ -182,8 +182,10 @@ When ready with all the tabs click on the Save this record button.
 Installing a Chart of Accounts
 ------------------------------
 Before we go further with installing and configuring modules we are going to create a chart of account.
-Go to: Financial management > Configuration > General account > Create Chart of Account from Template.
+:menuselection:`Financial management --> Configuration --> General account --> Create Chart of Account from Template`
+
 Double click to start the wizard.
+
 In the screen Create Chart of Account:
 
 * Company: Select the organisation for which you create the chart of accounts.
@@ -193,15 +195,18 @@ Click on the button Create.
 
 Language settings for the system
 --------------------------------
-If you have users that want to use different languages in the system, you first have to set these
-languages active and translatable.
-Go to the (left of the screen) Menu and select Administration > Localization > Languages (double click).
+If you have users that want to use different languages in the system, you first have to set these languages active and translatable.
+
+Go to the (left of the screen) Menu and select
+:menuselection:`Administration --> Localization --> Languages`
+
 Select for the language of your choice the Translatable and Active check boxes. Save your settings.
 
 Selecting other modules
 -----------------------
 You can now select the modules you need for your organisation processes.
-Menu > Administration > Modules > Modules
+:menuselection:`Menu --> Administration --> Modules --> Modules`
+
 To create a basic system, select and install the following modules:
 
 * account_invoice
@@ -214,7 +219,8 @@ Click on the OK button if you want to configure the module.
 Access management
 -----------------
 To create a new group that has access to certain modules go to:
-Administration > Modules > Modules access (double click)
+:menuselection:`Administration --> Modules --> Modules access`
+
 In the Models access screen click on the button Create a new record.
 
 * Model: Select a model to which the group will have access.

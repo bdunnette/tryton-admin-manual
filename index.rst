@@ -14,14 +14,7 @@ Contents:
    introduction
    basic_config
    accounts
-   
-
-
-
-
-
-
-
+   glossary
 
 Indices and tables
 ==================
@@ -29,4 +22,5 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
 
