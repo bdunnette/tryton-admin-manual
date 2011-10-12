@@ -105,7 +105,7 @@ Account
 -------
 Account Type
 """"""""""""
-When the Chart of Accounts is installed correctly most of the fields are filled automatically; however, you can view or edit account types from the following menu:
+When the :term:`Chart of Accounts` is installed correctly most of the fields are filled automatically; however, you can view or edit account types from the following menu:
 
 :menuselection:`Menu --> Financial Management --> Configuration --> General Account --> Account Types --> Account Types`
 
