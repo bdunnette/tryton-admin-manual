@@ -106,7 +106,7 @@ Account
 Account Type
 """"""""""""
 When the Chart of Accounts is installed correctly most of the fields are filled automatically.
-Menu > Financial Management > Configuration > General Account > Account Types > Account Types
+:menuselection:`Menu --> Financial Management --> Configuration --> General Account --> Account Types --> Account Types`
 
 The Account Type defines the structure of the accounting reports.
 Select an Account Type by double clicking on it.
