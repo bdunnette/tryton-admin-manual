@@ -75,6 +75,7 @@ Supplier Credit Note Sequence:
 * Sequence Name: Supplier Credit Note
 * Prefix: CREN
 * Suffix: ???
+
 Click on the :gui:`OK` button.
 
 Tab Periods
