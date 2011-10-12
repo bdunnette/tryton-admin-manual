@@ -44,7 +44,7 @@ Post Move Sequences: The sequence to use for numbering moves in this fiscal year
 * Prefix: PM
 * Suffix: What is handy to use ???
 
-Click on the :gui:`OK` button.
+Click on the :guilabel:`OK` button.
 
 Customer Invoice Sequence:
 
@@ -52,7 +52,7 @@ Customer Invoice Sequence:
 * Prefix: INV
 * Suffix: What is handy to use ???
 
-Click on the :gui:`OK` button.
+Click on the :guilabel:`OK` button.
 
 Supplier Invoice Sequence:
 
@@ -60,7 +60,7 @@ Supplier Invoice Sequence:
 * Prefix: INV
 * Suffix: What is handy to use ???
 
-Click on the :gui:`OK` button.
+Click on the :guilabel:`OK` button.
 
 Customer Credit Note Sequence:
 
@@ -68,7 +68,7 @@ Customer Credit Note Sequence:
 * Prefix: CRE
 * Suffix: ???
 
-Click on the :gui:`OK` button.
+Click on the :guilabel:`OK` button.
 
 Supplier Credit Note Sequence:
 
@@ -76,7 +76,7 @@ Supplier Credit Note Sequence:
 * Prefix: CREN
 * Suffix: ???
 
-Click on the :gui:`OK` button.
+Click on the :guilabel:`OK` button.
 
 Tab Periods
 Click on the Create monthly Periods button.
