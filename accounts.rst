@@ -17,6 +17,7 @@ Double click on New Fiscal Year.
    The Periods tab of the Fiscal Years screen
 
 Tab Periods
+
 * Name: The name of the fiscal year. For example: 2011
 * Code: The fiscal year code, useful for fast data entry and searching.
 * Starting Date: 01-01-2011
