@@ -84,19 +84,22 @@ Click on the Create monthly Periods button.
 
 Periods
 """""""
-Menu > Financial Management > Configuration > Fiscal Years > Periods (Double click)
+:menuselection:`Menu --> Financial Management --> Configuration --> Fiscal Years --> Periods`
+
 Select a period by double clicking on it.
+
 A period is mainly defined by a Starting and an Ending date, a Fiscal Year, a Type and a State (Open or
 Closed ).
-The type can be Standard or Adjustement: Periods of the type Standard on the same fiscal year can
-not overlap. Period of type Adjustement can overlap other periods and are typically used for all the
-accounting moves that must be created when closing a fiscal year. By default, the system uses only
-Standard period when creating moves.
+
+The type can be Standard or Adjustement: Periods of the type Standard on the same fiscal year can not overlap. Period of type Adjustement can overlap other periods and are typically used for all the
+accounting moves that must be created when closing a fiscal year. By default, the system uses only Standard period when creating moves.
 Each account move must be linked to a period and a move must be created on an open period.
-With the button Close Periods you can close a selected period, accounting for that period is not possible
-anymore. You can use the Re-Open Periods button to open a selected period again.
+
+With the button Close Periods you can close a selected period, accounting for that period is not possible anymore. You can use the Re-Open Periods button to open a selected period again.
+
 With the Next record button you can select the next Period.
-When your done click finally on the Save this record button.
+
+When you are done, click on the Save this record button.
 
 Account
 -------
