@@ -1,6 +1,7 @@
 Basic Configuration
 ===================
 When a new database is created in Tryton and when you log in that database for the first time, you get the screen:
+
 *Welcome to the module configuration wizard!*
 
 Click on the :guilabel:`OK` button if you want to configure modules.
@@ -15,7 +16,7 @@ If you want to create new users click on the :guilabel:`OK` button.
    
    The User tab on the Users screen
 
-On the screen Users, go to the User tab:
+On the *Users* screen, go to the *User* tab:
 
 User Tab
 """"""""
@@ -28,17 +29,16 @@ User Tab
     * Menu action: The menu viewed by the user.
 
 
-Check the Active box if you want this user to be active. You can block the access of an user by unchecking this box.
+Check the :guilabel:`Active` box if you want this user to be active. You can block a user from accessing the server by unchecking this box.
 
 Access Permissions Tab
 """"""""""""""""""""""
 
-Under Groups click on the :guilabel:`Add` button and select the groups to which the user will belong.
-Select existing groups or create a new one.
+Under Groups click on the :guilabel:`Add` button and select the :term:`groups` to which the user will belong. Select existing groups or create a new one.
 
-Under Rules click on the :guilabel:`Add` button to add a :term:`rule`.
-With a rule you can manage in detail what kind of access a user has on the different modules/fields.
-Click on the New button and you get the Record rules screen.
+Under Rules click on the :guilabel:`Add` button to add a :term:`rule`.  With a rule you can manage in detail what kind of access a user has on the different modules/fields.
+
+Click on the :guilabel:`New` button and you get the Record rules screen.
 
     * Model: The :term:`model` description.
     * Global: Check this box so the rule becomes global and every user must follow this rule.
@@ -62,30 +62,29 @@ A new empty User screen will appear for adding another user. If you do not want 
 
 Installing modules
 ------------------
-After you have added users with the wizard, a list of installable modules appear.
+After you have added users with the wizard, a list of available modules appears.
 
-To start a minimal system select first an accounting module by double clicking on the name and then click on the *Mark for Installation* button.
+To start a minimal system select first an accounting :term:`module` by double clicking on the name and then click on the *Mark for Installation* button.
 
-* account_nl # Select the accounting module for your country.
+The *account* module contains a basic chart of accounts; additional modules may be available to more closely fit your local accounting laws (for instance, the *account_nl* module for the Netherlands).
 
-Click on the tab Dependencies.
+Click on the :guilabel:`Dependencies` tab.
 
 When you select a module to install, other modules on which it is dependent will be installed too (in this case the module account will be installed too).
 
-When you have selected the module you want to install, click on the button *Perform Pending Installation/Update*. The screen System Upgrade appears with all the modules that will be installed.
-Click on the button Start Upgrade.
-When the module is installed, the wizard Welcome to the module configuration wizard! appear.
+When you have selected the module you want to install, click on the button *Perform Pending Installation/Update*. The System Upgrade screen appears with a list of modules that will be installed.
+
+Click on the :guilabel:`Start Upgrade` button.
+
+When the module is installed, the module configuration wizard appears.
+
 Click on the OK button if you want to configure modules.
 
 Creating a Company
 ------------------
-The wizard to create a :term:`company` starts. This "company" will be the organisation for which you will use the
-Tryton system.
+The wizard to create a :term:`company` starts. This "company" will be the organisation for which you will use the Tryton system.
 
-The company submodule extends the party module and add several fields: the currency, the list of
-employees and header and footer texts for reports. There is also a parent company field which allow to
-setup companies in a tree structure. The company model represents the actual organisation the users of
-Tryton are members of.
+The company submodule extends the party module and adds several fields: the currency, the list of employees and header and footer texts for reports. There is also a parent company field which allows setup of companies in a tree structure. The company model represents the actual organisation the users of Tryton are members of.
 
 .. figure:: images/company.jpg
    :scale: 50 %
@@ -146,10 +145,49 @@ In the group Addresses.
 * Subdivision: State or province where your employee is situated
 
 Language: select one of the available languages.
+
+In the group Contact mechanisms.
+These are the various ways (Email, Phone, Skype) by which this employee can be contacted.
+
+.. sidebar:: Creating Categories
+
+   To create or manage categories, use the Categories menu unter Party Management. Create a new record and give the Category a name.
+
+   Category examples: Gold partner, Silver partner, IT company, Consultant, etc.
+
+In the group Categories.
+These categories can be used to organize or “tag” parties (including companies).
+
+Tab Employees
+
+.. sidebar:: Employees
+
+   Employees represent the actual employees of the organisations using Tryton (the *companies*).
+
+   An employee can be optionally linke to a user through the *user* form.
+
+Click on the button Create a new record, the Employee screen apears.
+● Name: First and last name of the employee
+● Active: Check this box if the employee is active in the organisation.
+In the screen Employee click on the tab General.
+Tab General
+In the group Addresses.
+● Name: The employee name
+● Active: Check this box if this employee is active
+● Invoice: Check this box if you can invoice this employee Is this
+correct ???
+● Street: Streetname for your employee
+● Street (bis): Alternative streetname for your employee
+● ZIP: Post code of the employee
+● City: City where your employee is situated
+● Country: Country where your employee is situated
+● Subdivision: State or province where your employee is situated
+Language: select one of the available languages.
 In the group Contact mechanisms.
 These are the various ways (Email, Phone, Skype) by which this employee can be contacted.
 In the group Categories.
 These categories can be used to organize or “tag” employees.
+
 
 Tab Accounting
 
@@ -163,6 +201,7 @@ Tab Accounting
 * Supplier Tax Rule: Select the appropriate tax rule for your situation
 
 Click on the OK button when done.
+
 Tab Reports
 Under Header you fill in the text that you want to have in the header of your reports.
 under Footer you fill in the text that you want to have in the footer of your reports.
