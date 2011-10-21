@@ -149,7 +149,7 @@ Language: select one of the available languages.
 In the group Contact mechanisms.
 These are the various ways (Email, Phone, Skype) by which this employee can be contacted.
 
-.. sidebar:: Creating Categories
+.. TIP:: Creating Categories
 
    To create or manage categories, use the Categories menu unter Party Management. Create a new record and give the Category a name.
 
@@ -246,21 +246,20 @@ Selecting other modules
 You can now select the modules you need for your organisation processes.
 :menuselection:`Menu --> Administration --> Modules --> Modules`
 
-To create a basic system, select and install the following modules:
+For example, to allow creation of invoices, select and install the following module:
 
 * account_invoice
 
-When you have selected a module you want to install, click on the Perform Pending Installation/Update
-button, and then the Start Upgrade button.
-When the module is installed, a “Welcome to the module configuration wizard!” message will appear.
-Click on the OK button if you want to configure the module.
+When you have selected a module you want to install, click on the :guilabel:`Perform Pending Installation/Update` button, and then the :guilabel:`Start Upgrade` button. Once the module is installed, a related configuration wizard may appear.
+
+Click on the :guilabel:`OK` button if you want to configure the module.
 
 Access management
 -----------------
 To create a new group that has access to certain modules go to:
-:menuselection:`Administration --> Modules --> Modules access`
+:menuselection:`Administration --> Models --> Models Access`
 
-In the Models access screen click on the button Create a new record.
+In the :guilabel:`Models Access` screen click on the button Create a new record.
 
 * Model: Select a model to which the group will have access.
 * Group: The group name.
@@ -270,4 +269,15 @@ In the Models access screen click on the button Create a new record.
 * Delete access: Check this box if you want to give delete access to the model.
 
 When you create for the Group a new record you get the Group screen.
-Go to the tab Access Permissions.
+Go to the :guilabel:`Access Permissions` tab.
+
+Access Permissions tab
+""""""""""""""""""""""
+
+Click on the :guilabel:`Create a new record` button. In the Access Controls screen select a model and check the appropriate boxes.
+
+To define which fields the group has access to, go to :guilabel:`Field Access`.
+Click on the button Create a new record. In the screen Field Access select a field and check the appropriate boxes.
+
+
+
