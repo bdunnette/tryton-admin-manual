@@ -11,7 +11,7 @@ Creating users
 The first configuration step in the :term:`wizard` is *Add users*.
 If you want to create new users click on the :guilabel:`OK` button.
 
-.. figure:: images/user-screen.png
+.. figure:: _static/user-screen.png
    :scale: 50 %
    
    The User tab on the Users screen
@@ -86,7 +86,7 @@ The wizard to create a :term:`company` starts. This "company" will be the organi
 
 The company submodule extends the party module and adds several fields: the currency, the list of employees and header and footer texts for reports. There is also a parent company field which allows setup of companies in a tree structure. The company model represents the actual organisation the users of Tryton are members of.
 
-.. figure:: images/company.jpg
+.. figure:: _static/company.jpg
    :scale: 50 %
    
    The General tab of the Companies screen

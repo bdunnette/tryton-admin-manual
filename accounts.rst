@@ -11,7 +11,7 @@ users can not make any further changes in that fiscal period.
 Menu > Financial Management > Configuration > Fiscal Years > Fiscal Years
 Double click on New Fiscal Year.
 
-.. figure:: images/fiscal-year.png
+.. figure:: _static/fiscal-year.png
    :scale: 50 %
    
    The Periods tab of the Fiscal Years screen
@@ -29,7 +29,7 @@ Before you can create Periods you must first create the Sequences.
 
 Sequences
 """""""""
-.. figure:: images/fiscal-year-sequences.png
+.. figure:: _static/fiscal-year-sequences.png
    :scale: 50 %
    
    The Sequences tab of the Fiscal Years screen
