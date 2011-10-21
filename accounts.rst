@@ -97,6 +97,7 @@ When your done click finally on the Save this record button.
 
 Account
 -------
+
 Account Type
 """"""""""""
 When the Chart of Accounts is installed correctly most of the fields are filled automatically.
