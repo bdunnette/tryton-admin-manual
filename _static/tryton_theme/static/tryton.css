@@ -1,0 +1,281 @@
+* {
+  margin: 0em;
+  padding: 0em;
+}
+
+body {
+  background-color: #4f4f4f;
+  font-family: 'Arial', 'sans serif';
+  font-size: 1em;
+  color: #333333;
+}
+
+.low {
+  top: 0.3em;
+  position:relative;
+}
+
+#title{
+  background-color: black;
+}
+
+#title_left{
+
+  width: 30em;
+  height: 200px;
+  background-color: black;
+  background-image: url(img/header.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  -moz-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  float: left;
+}
+
+#title_right{
+  width: 30em;
+  height: 200px;
+  background-color: black;
+  background-image: url(img/triton.jpg);
+  background-repeat: no-repeat;
+  background-position: center 20px;
+  -moz-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  float: right;
+}
+
+#title_language {
+    position: absolute;
+    background-color: black;
+    text-align: right;
+    width: 29em;
+    color: white;
+    word-spacing: 0.5em;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+#title_language a {
+    color: white;
+}
+
+#body {
+  background-color: black;
+  width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+.content {
+  padding: 3em;
+  clear: both;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: white;
+  -moz-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+}
+
+#header {
+  display: none;
+}
+
+.floatright {
+  float: right;
+  clear: both;
+  margin: 0em 0em 1em 1em;
+  padding: 0em 1em 1em 1em;
+  width: 20em;
+  background-color: #ffeebb;
+  border: 1px solid #ff5500;
+  list-style-type: none;
+  -moz-border-radius: 10px;
+  -moz-border-radius-topright: 0px;
+  -webkit-border-radius: 10px;
+  -webkit-border-top-right-radius: 0px;
+
+}
+
+.floatleft {
+  float: left;
+  clear: both;
+  margin: 1em 1em 1em -1em;
+  padding: 1em 1em 1em 1em;
+  width: 20em;
+  background-color: #FFEEBB;
+  border: 1px solid #FF5500;
+  -moz-border-radius: 10px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-radius: 10px;
+  -webkit-border-top-left-radius: 0px;
+}
+
+a.headerlink {
+    font-size: 0.8em;
+    padding: 0 4px 0 4px;
+    text-decoration: none;
+    visibility: hidden;
+}
+
+h1:hover > a.headerlink,
+h2:hover > a.headerlink,
+h3:hover > a.headerlink,
+h4:hover > a.headerlink,
+h5:hover > a.headerlink,
+h6:hover > a.headerlink,
+dt:hover > a.headerlink {
+    visibility: visible;
+}
+a.headerlink:hover {
+    border: 1px solid blue;
+}
+
+.content ul{
+  padding-left: 2em;
+}
+
+.content li{
+  padding-top: 0.5em;
+}
+
+.content ol{
+  padding-left: 2em;
+}
+
+#map {
+  width: 20em;
+  height: 15em;
+  border: 1px solid grey;
+}
+
+p, dt {
+  color: #333333;
+  margin-bottom: 0.2em;
+  margin-top: 0.5em;
+  padding-left: 0.2em;
+}
+blockquote {
+  color: #333333;
+  margin-bottom: 0.2em;
+  margin-top: 0.5em;
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  margin-top: 0.9em;
+  margin-bottom: 0.2em;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.15em;
+  margin-top: 0.8em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-family: 'Georgia', serif;
+  margin-top: 0.6em;
+  margin-bottom: 0em;
+  margin-top: 0.8em;
+  font-size: 1.1em;
+}
+
+h4 {
+  font-family: 'Georgia', serif;
+  margin-top: 0.6em;
+  margin-bottom: 0em;
+  margin-top: 0.8em;
+  font-size: 0.9em;
+}
+
+a img{
+  border: 0em;
+}
+
+a, a:link {
+  color: #0000AA;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#navlist ul {
+  padding-left: 0;
+  margin-left: 0;
+  background-color: black;
+  background-image: url(img/degrade.png);
+  background-repeat: repeat-x;
+  color: white;
+  float: left;
+  width: 100%;
+}
+
+#navlist ul li {
+  display: inline;
+}
+
+#navlist ul li a {
+  padding: 0.75em 0.75em;
+  background-color: black;
+  color: white;
+  background-image: url(img/degrade.png);
+  background-repeat: repeat-x;
+  text-decoration: none;
+  float: left;
+  font-size: 0.9em;
+}
+
+#navlist ul li a.home {
+  padding-left: 7em;
+}
+
+#navlist ul li a:hover {
+  background-image: url(img/degradeinv.png);
+  background-repeat: repeat-x;
+}
+
+#navlist ul li a.active {
+  background-image: url(img/degradeinv.png);
+  background-repeat: repeat-x;
+}
+
+#footer {
+  text-align: center;
+  color: black;
+  padding: 2em;
+  clear: both;
+  font-size: 0.6em;
+}
+
+#rss {
+  position: relative;
+  top: -1em;
+  float: right;
+  color: black;
+  background-color: transparent;
+  font-size: 1em;
+}
+
+#ohloh {
+  position: relative;
+  top: -1em;
+  float: right;
+  color: black;
+  background-color: transparent;
+  font-size: 1em;
+  margin-left: 2em;
+}
